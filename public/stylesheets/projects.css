@@ -49,7 +49,9 @@
   margin: auto;
   margin-bottom:90px;
 }
-
+.film-feature{
+  width:100%;
+}
 .snapshot-image{
   width:311px;
   margin-bottom:15px;
