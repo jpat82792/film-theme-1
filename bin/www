@@ -12,14 +12,8 @@ var http = require('http');
  * Get port from environment and store in Express.
  */
 
-app.set( 'port', ( process.env.PORT || 5000 ));
-console.log("Hello");
-console.log(process.env.PORT);
-// Start node server
-app.listen( app.get( 'port' ), function() {
-  console.log( 'Node server is running on port ' + app.get( 'port' ));
-});
-
+var port = normalizePort(process.env.PORT || '3000');
+app.set('port', port);
 /**
  * Create HTTP server.
  */
