@@ -1,0 +1,38 @@
+.about-title{
+  text-align: center;
+  font-size: 165px;
+  font-family: tumbleweed;
+  z-index: 1;
+  position: relative;
+  top: 70px;
+  color:#e0ce08;
+}
+.about-banner-image{
+  position:relative;
+  margin-top:-166px;
+}
+
+.about-container{
+  margin-top:90px;
+  margin-bottom:90px;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.about-section{
+  margin-bottom:30px;
+}
+
+.section-title{
+  text-align: left;
+  font-family: yokawerad;
+  font-size: 60px;
+  color: #e0ce08;
+}
+.section-content{
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: montserrat;
+  line-height: 1.5;
+  color: #482004;
+}

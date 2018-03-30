@@ -1,0 +1,13 @@
+.page-title{
+  position: relative;
+  text-align: center;
+  font-family: Tumbleweed;
+  font-size: 150px;
+  z-index: 1;
+  top: 70px;
+  color: #e0ce08;
+}
+.banner-img{
+  position: relative;
+  top: -150px;
+}

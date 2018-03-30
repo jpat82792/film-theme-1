@@ -1,0 +1,132 @@
+.projects-title{
+  position: relative;
+  text-align: center;
+  font-family: Tumbleweed;
+  font-size: 150px;
+  z-index: 1;
+  margin-top: 90px;
+  color: #e0ce08;
+  text-transform:uppercase;
+}
+
+.nav-button{
+    background-color: #e0ce08;
+    border: solid 5px #482004;
+    border-radius: 4px;
+    position: relative;
+    display: inline-table;
+    text-transform: capitalize;
+    margin-right:30px;
+}
+
+.nav-button-text{
+  text-align: center;
+  font-family: yokawerad;
+  color: #861b08;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 30px;
+  position: relative;
+}
+
+.inner-nav{
+  margin-bottom:15px;
+}
+
+.section-divider{
+  width:964px;
+  height:2px;
+  background-color:#402004;
+  margin:auto;
+  margin-bottom:60px;
+}
+
+.snapshot-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 964px;
+  margin: auto;
+  margin-bottom:90px;
+}
+
+.snapshot-image{
+  width:311px;
+  margin-bottom:15px;
+}
+
+@media (min-width:320px){
+  .section-divider{
+    width:320px;
+  }
+  .snapshot-container{
+    width:320px;
+  }
+  .projects-navigation{
+    margin-top:120px;
+    padding-left:0px;
+  }
+  .nav-button-text{
+    font-size:20px;
+  }
+  .nav-button{
+    margin-right:15px;
+  }
+  .projects-title{
+    font-size:70px;
+  }
+}
+@media (min-width:480px){
+  .nav-button-text{
+    font-size:30px;
+  }
+  .nav-button{
+    margin-right:30px;
+  }
+  .section-divider{
+    width:480px;
+  }
+  .snapshot-container{
+    width:480px;
+    justify-content:center;
+  }
+  .projects-title{
+    font-size:100px;
+  }
+}
+@media (min-width:768px){
+  .section-divider{
+    width:768px;
+  }
+  .snapshot-container{
+    width:768px;
+    justify-content: space-evenly;
+  }
+  .projects-navigation{
+    margin-top:120px;
+    padding-left:0px;
+  }
+  .snapshot-image{
+    margin-bottom:45px;
+  }
+}
+@media (min-width:992px){
+  .projects-title{
+    font-size:150px;
+  }
+  .snapshot-image{
+    margin-bottom:15px;
+  }
+
+  .section-divider{
+    width:964px;
+  }
+  .snapshot-container{
+    width:964px;
+    justify-content:space-between;
+  }
+  .projects-navigation{
+    margin-top:120px;
+    padding-left:30px;
+  }
+}

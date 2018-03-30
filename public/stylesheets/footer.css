@@ -1,0 +1,17 @@
+.footer-button{
+  font-size: 30px;
+  font-family: yokawerad;
+  color: #e0ce08;
+}
+
+.footer-left{
+  float:left;
+}
+
+.footer-right{
+  float:right;
+}
+
+.footer-content{
+  top:21px;
+}

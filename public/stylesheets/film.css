@@ -1,0 +1,44 @@
+.film-container{
+  padding-left:30px;
+  padding-right:30px;
+  margin-bottom:90px;
+}
+
+.film-content{
+  margin-bottom:60px;
+}
+
+.film-feature{
+
+}
+
+.film-title{
+  text-align: center;
+  font-family: tumbleweed;
+  font-size: 60px;
+  color: #e0ce08;
+}
+
+.film-description{
+  color: #482004;
+  font-family: montserrat;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.watch-here-link-container{
+  text-align:center;
+  margin-top:30px;
+}
+
+.watch-here-link{
+  background-color: #861b08;
+  color: #e0ce08;
+  font-family: yokawerad;
+  padding: 5px;
+  padding-top: 1.5px;
+  border-radius: 5px;
+  padding-bottom: 0.5px;
+  font-size: 25px;
+  text-transform: capitalize;
+}

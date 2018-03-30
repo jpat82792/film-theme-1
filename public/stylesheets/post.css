@@ -1,0 +1,46 @@
+.blog-component{
+  position:relative;
+  top:-64px;
+  padding-left:30px;
+  padding-right:30px;
+  float:left;
+}
+
+.post-image{
+  float:left;
+}
+
+.post-title{
+  text-align:center;
+  color: #e0ce08;
+}
+
+.post-content{
+  width:316px;
+  float:left;
+  padding-left:15px;
+  color: #482004;
+}
+
+.post-image-right{
+  float:right;
+}
+
+.post-content-right{
+  padding-left:0px;
+  padding-right:15px;
+}
+
+.post-title{
+  font-family:yokawerad;
+}
+
+.post-preview{
+  font-family:montserrat;
+}
+
+.post-container{
+  position:relative;
+  margin-bottom:60px;
+  float:left;
+}

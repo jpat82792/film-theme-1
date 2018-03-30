@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/universal.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/footer.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/banner.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/projects.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/film.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/post.css" />
+  </head>
+  <body>
+    <%- include components/navbar.html %>
+    <section class="main-content-container">
+      <h1 class="projects-title">
+        Projects
+      </h1>
+      <section class="projects-navigation">
+        <ul class="inner-nav">
+          <li class="nav-button">
+            <a class="nav-button-text" href="/snapshots">
+              snapshots
+            </a>
+          </li>
+          <li class="nav-button">
+            <a class="nav-button-text" href="/films">
+              films
+            </a>
+          </li>
+        </ul>
+      </section>
+      <div class="section-divider"></div>
+      <section class="film-container">
+        <section class="film-content">
+          <img class="film-feature" src="images/films/action-axe-bark.jpg" />
+          <h2 class="film-title">Gold Chasers</h2>
+          <article class="film-description">Two brothers set off on a journey to discover fabulous wealth. However, they realize the West is full of schemes and dangers</article>
+          <div class="watch-here-link-container">
+            <a class="no-link watch-here-link">watch here</a>
+          </div>
+        </section>
+        <section class="film-content">
+          <img class="film-feature" src="images/films/astrology-astronomy-atmosphere.jpg" />
+          <h2 class="film-title">The Blue Moon</h2>
+          <article class="film-description">
+            The frontier town of Prairie Lake is a beautiful town filled with good natured folk trying to escape the East for a purer form of life. Unfortunately, nothing stays pure on the frontier.
+          </article>
+          <div class="watch-here-link-container">
+            <a class="no-link watch-here-link">
+              watch here
+            </a>
+          </div>
+        </section>
+      </section>
+    </section>
+    <%- include components/footer.html %>
+  </body>
+</html>

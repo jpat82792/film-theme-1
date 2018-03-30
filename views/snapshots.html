@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/universal.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/footer.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/banner.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/projects.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/post.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/modal.css" />
+  </head>
+  <body>
+    <%- include components/contact-modal.html %>
+    <%- include components/newsletter-modal.html %>
+    <%- include components/navbar-modal.html %>
+    <%- include components/navbar.html %>
+    <section class="main-content-container">
+      <h1 class="projects-title">
+        Projects
+      </h1>
+      <section class="projects-navigation">
+        <ul class="inner-nav">
+          <li class="nav-button">
+            <a class="nav-button-text" href="/snapshots">
+              snapshots
+            </a>
+          </li>
+          <li class="nav-button">
+            <a class="nav-button-text" href="/films">
+              films
+            </a>
+          </li>
+        </ul>
+      </section>
+      <div class="section-divider"></div>
+      <div class="snapshot-container">
+        <img class="snapshot-image" src="images/snapshots/close-up-cowboy-cowboy-hat.jpg" />
+        <img class="snapshot-image" src="images/snapshots/accident-action-animal.jpg" />
+        <img class="snapshot-image" src="images/snapshots/adult-autumn-back-view.jpg" />
+        <img class="snapshot-image" src="images/snapshots/adult-clouds-cowboy.jpg" />
+        <img class="snapshot-image" src="images/snapshots/adult-blur-branch-850274.jpg" />
+        <img class="snapshot-image" src="images/snapshots/animal-country-cowboy-53011.jpg" />
+        <img class="snapshot-image" src="images/snapshots/adventure-animals-cowboy-162520.jpg" />
+        <img class="snapshot-image" src="images/snapshots/beach-cowboy-horse-36348.jpg" />
+        <img class="snapshot-image" src="images/snapshots/boots-cowboy-denim-51130.jpg" />
+
+      </div>
+    </section>
+    <%- include components/footer.html %>
+  </body>
+</html>
