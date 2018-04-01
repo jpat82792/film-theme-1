@@ -8,7 +8,7 @@ See the original concept developed in photoshop:
 <a href="https://www.behance.net/gallery/63775051/IndieWest-Film-Template">
 Behance of Film Theme 1
 </a>
-<h2>Future Plans</h2>
+<h2>Plans</h2>
 <ol>
 <li>Add LESS preprocessor</li>
 <li>Add documentation</li>
