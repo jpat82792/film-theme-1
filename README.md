@@ -1,4 +1,4 @@
-# film-theme-1
+# Film-Theme-1
 
 
 See this theme in live environment: 
