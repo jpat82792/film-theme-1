@@ -1,0 +1,116 @@
+/*post.less*/
+@import "universal";
+
+.blog-component{
+  position:relative;
+  top:-64px;
+  padding-left:30px;
+  padding-right:30px;
+  float:left;
+}
+
+.post-image{
+  float:left;
+}
+
+.post-title{
+  text-align: center;
+  color: @color-yellow;
+}
+
+.post-content{
+  width:316px;
+  float:left;
+  padding-left:15px;
+  color: @color-brown;
+}
+
+.post-image-right{
+  float:right;
+}
+
+.post-content-right{
+  padding-left:0px;
+  padding-right:15px;
+}
+
+.post-title{
+  .font-yokawerad;
+  font-size:22px;
+
+}
+
+.post-preview{
+  .font-montserrat;
+  font-size:18px;
+  margin-top:10px;
+}
+
+.post-container{
+  position:relative;
+  margin-bottom:60px;
+  float:left;
+}
+
+@media (min-width:320px){
+  .post-content{
+    width:100%;
+    padding-left:0px;
+  }
+  .post-image{
+    width:100%;
+  }
+  .post-image-right{
+    width:100%;
+  }
+  .blog-component{
+    top:-17px;
+  }
+  .post-title{
+    margin-top:15px;
+  }
+
+  .post-preview{
+
+  }
+
+}
+@media (min-width:480px){
+  .blog-component{
+    top:-39px;
+  }
+}
+@media (min-width:768px){
+  .post-title{
+    margin-top:0px;
+  }
+
+  .post-preview{
+  }
+
+  .post-image{
+    width:66%;
+  }
+  .post-image-right{
+    width:66%;
+  }
+  .post-content{
+    width:225px;
+    padding-left:15px;
+  }
+}
+@media (min-width:992px){
+  .post-image{
+    width:auto;
+  }
+  .post-image-right{
+    width:auto;
+  }
+  .post-content{
+    width:316px;
+  }
+}
+
+.post-content-right{
+  padding-left:0px;
+}
