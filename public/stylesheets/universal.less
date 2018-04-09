@@ -3,6 +3,7 @@
 @color-yellow-active:#f2df05;
 @color-brown:#482004;
 @color-red:#861b08;
+@color-red-active:#ad2108;
 @background-red:#861b08;
 
 @font-face{
@@ -36,6 +37,7 @@ h1, h2, h3, h4, h5, h6, ul, li{
   margin:0px;
   padding:0px;
 }
+
 a{
   text-decoration:none;
 }
@@ -56,6 +58,15 @@ li{
 .padding-container{
   padding-left:30px;
   padding-right:30px;
+}
+
+.prevent-highlight-text{
+-webkit-user-select: none; /* Chrome/Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+ */
+-o-user-select: none;
+user-select: none;
+
 }
 
 nav{
